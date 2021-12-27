@@ -1,0 +1,20 @@
+
+<article class='new-article'>
+    <h1 class='main-tagline'>
+      Signup
+    </h1>
+    <h2>
+      Signup now!
+    </h2>
+  <%= form_for(@signup) do |f| %>
+    <%= f.text_field :firstname, :placeholder => "First Name", :class =>'form_input' %> 
+    <%= f.text_field :email, :placeholder => "Email", :class =>'form_input' %>
+    <%= f.submit "Join", :class =>'btn btn-outline-light' %> 
+  <% end %>
+</article>
+
+
+
+
+
+
